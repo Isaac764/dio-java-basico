@@ -4,10 +4,7 @@ import java.util.concurrent.ThreadLocalRandom;
 public class ProcessoSeletivo {
     public static void main(String[] args) throws Exception {
 		String[] candidatos = {"FELIPE","MARCIA","JULIA","PAULO","AUGUSTO"};
-		for(String candidato: candidatos) {
-			entrandoEmContato(candidato);
-			
-		}
+	
 	}
 	static void entrandoEmContato(String candidato) {
 		int tentativasRealizadas = 1;
